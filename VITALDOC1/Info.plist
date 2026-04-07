@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>vitaldoc.org</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSExceptionMinimumTLSVersion</key>
+				<string>TLSv1.2</string>
+			</dict>
+		</dict>
+	</dict>
+
+	<key>NSCameraUsageDescription</key>
+	<string>VitalDoc necesita acceder a su cámara para realizar videoconsultas médicas. VitalDoc needs access to your camera for medical video consultations.</string>
+
+	<key>NSMicrophoneUsageDescription</key>
+	<string>VitalDoc necesita acceder a su micrófono para realizar consultas médicas por voz y video. VitalDoc needs access to your microphone for voice and video medical consultations.</string>
+
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>VitalDoc necesita su ubicación para localizar centros médicos cercanos y servicios de emergencia. VitalDoc needs your location to find nearby medical centers and emergency services.</string>
+
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>VitalDoc necesita su ubicación para ofrecer servicios médicos de emergencia y localización continua durante el seguimiento de salud. VitalDoc needs your location for emergency medical services and continuous health monitoring.</string>
+
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>VitalDoc necesita acceder a su galería de fotos para adjuntar imágenes médicas, recetas o informes a sus consultas. VitalDoc needs access to your photo library to attach medical images, prescriptions, or reports to your consultations.</string>
+
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>VitalDoc necesita guardar documentos médicos, recetas e informes en su galería de fotos. VitalDoc needs to save medical documents, prescriptions, and reports to your photo library.</string>
+
+	<key>NSFaceIDUsageDescription</key>
+	<string>VitalDoc utiliza Face ID para proteger el acceso a su información médica confidencial. VitalDoc uses Face ID to protect access to your confidential medical information.</string>
+</dict>
+</plist>

@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AFDD9C2F1E5D110088F733 /* VITALDOC1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDD9B2F1E5D110088F733 /* VITALDOC1App.swift */; };
+		04AFDD9E2F1E5D110088F733 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDD9D2F1E5D110088F733 /* ContentView.swift */; };
+		04AFDDA02F1E5D140088F733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AFDD9F2F1E5D140088F733 /* Assets.xcassets */; };
+		04AFDDA42F1E5D140088F733 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AFDDA32F1E5D140088F733 /* Preview Assets.xcassets */; };
+		04AFDDAE2F1E5D140088F733 /* VITALDOC1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDDAD2F1E5D140088F733 /* VITALDOC1Tests.swift */; };
+		04AFDDB82F1E5D140088F733 /* VITALDOC1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDDB72F1E5D140088F733 /* VITALDOC1UITests.swift */; };
+		04AFDDBA2F1E5D140088F733 /* VITALDOC1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDDB92F1E5D140088F733 /* VITALDOC1UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04AFDDAA2F1E5D140088F733 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AFDD902F1E5D110088F733 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AFDD972F1E5D110088F733;
+			remoteInfo = VITALDOC1;
+		};
+		04AFDDB42F1E5D140088F733 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AFDD902F1E5D110088F733 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AFDD972F1E5D110088F733;
+			remoteInfo = VITALDOC1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AFDD982F1E5D110088F733 /* VITALDOC1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VITALDOC1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AFDD9B2F1E5D110088F733 /* VITALDOC1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VITALDOC1App.swift; sourceTree = "<group>"; };
+		04AFDD9D2F1E5D110088F733 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04AFDD9F2F1E5D140088F733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04AFDDA12F1E5D140088F733 /* VITALDOC1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VITALDOC1.entitlements; sourceTree = "<group>"; };
+		04AFDDA32F1E5D140088F733 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04AFDDA92F1E5D140088F733 /* VITALDOC1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VITALDOC1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AFDDAD2F1E5D140088F733 /* VITALDOC1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VITALDOC1Tests.swift; sourceTree = "<group>"; };
+		04AFDDB32F1E5D140088F733 /* VITALDOC1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VITALDOC1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AFDDB72F1E5D140088F733 /* VITALDOC1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VITALDOC1UITests.swift; sourceTree = "<group>"; };
+		04AFDDB92F1E5D140088F733 /* VITALDOC1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VITALDOC1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04AFDDC62F1E5DB80088F733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AFDD952F1E5D110088F733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AFDDA62F1E5D140088F733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AFDDB02F1E5D140088F733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AFDD8F2F1E5D110088F733 = {
+			isa = PBXGroup;
+			children = (
+				04AFDD9A2F1E5D110088F733 /* VITALDOC1 */,
+				04AFDDAC2F1E5D140088F733 /* VITALDOC1Tests */,
+				04AFDDB62F1E5D140088F733 /* VITALDOC1UITests */,
+				04AFDD992F1E5D110088F733 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04AFDD992F1E5D110088F733 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AFDD982F1E5D110088F733 /* VITALDOC1.app */,
+				04AFDDA92F1E5D140088F733 /* VITALDOC1Tests.xctest */,
+				04AFDDB32F1E5D140088F733 /* VITALDOC1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AFDD9A2F1E5D110088F733 /* VITALDOC1 */ = {
+			isa = PBXGroup;
+			children = (
+				04AFDDC62F1E5DB80088F733 /* Info.plist */,
+				04AFDD9B2F1E5D110088F733 /* VITALDOC1App.swift */,
+				04AFDD9D2F1E5D110088F733 /* ContentView.swift */,
+				04AFDD9F2F1E5D140088F733 /* Assets.xcassets */,
+				04AFDDA12F1E5D140088F733 /* VITALDOC1.entitlements */,
+				04AFDDA22F1E5D140088F733 /* Preview Content */,
+			);
+			path = VITALDOC1;
+			sourceTree = "<group>";
+		};
+		04AFDDA22F1E5D140088F733 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04AFDDA32F1E5D140088F733 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04AFDDAC2F1E5D140088F733 /* VITALDOC1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04AFDDAD2F1E5D140088F733 /* VITALDOC1Tests.swift */,
+			);
+			path = VITALDOC1Tests;
+			sourceTree = "<group>";
+		};
+		04AFDDB62F1E5D140088F733 /* VITALDOC1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				04AFDDB72F1E5D140088F733 /* VITALDOC1UITests.swift */,
+				04AFDDB92F1E5D140088F733 /* VITALDOC1UITestsLaunchTests.swift */,
+			);
+			path = VITALDOC1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AFDD972F1E5D110088F733 /* VITALDOC1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AFDDBD2F1E5D140088F733 /* Build configuration list for PBXNativeTarget "VITALDOC1" */;
+			buildPhases = (
+				04AFDD942F1E5D110088F733 /* Sources */,
+				04AFDD952F1E5D110088F733 /* Frameworks */,
+				04AFDD962F1E5D110088F733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VITALDOC1;
+			productName = VITALDOC1;
+			productReference = 04AFDD982F1E5D110088F733 /* VITALDOC1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04AFDDA82F1E5D140088F733 /* VITALDOC1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AFDDC02F1E5D140088F733 /* Build configuration list for PBXNativeTarget "VITALDOC1Tests" */;
+			buildPhases = (
+				04AFDDA52F1E5D140088F733 /* Sources */,
+				04AFDDA62F1E5D140088F733 /* Frameworks */,
+				04AFDDA72F1E5D140088F733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AFDDAB2F1E5D140088F733 /* PBXTargetDependency */,
+			);
+			name = VITALDOC1Tests;
+			productName = VITALDOC1Tests;
+			productReference = 04AFDDA92F1E5D140088F733 /* VITALDOC1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04AFDDB22F1E5D140088F733 /* VITALDOC1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AFDDC32F1E5D140088F733 /* Build configuration list for PBXNativeTarget "VITALDOC1UITests" */;
+			buildPhases = (
+				04AFDDAF2F1E5D140088F733 /* Sources */,
+				04AFDDB02F1E5D140088F733 /* Frameworks */,
+				04AFDDB12F1E5D140088F733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AFDDB52F1E5D140088F733 /* PBXTargetDependency */,
+			);
+			name = VITALDOC1UITests;
+			productName = VITALDOC1UITests;
+			productReference = 04AFDDB32F1E5D140088F733 /* VITALDOC1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AFDD902F1E5D110088F733 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					04AFDD972F1E5D110088F733 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					04AFDDA82F1E5D140088F733 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 04AFDD972F1E5D110088F733;
+					};
+					04AFDDB22F1E5D140088F733 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 04AFDD972F1E5D110088F733;
+					};
+				};
+			};
+			buildConfigurationList = 04AFDD932F1E5D110088F733 /* Build configuration list for PBXProject "VITALDOC1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AFDD8F2F1E5D110088F733;
+			productRefGroup = 04AFDD992F1E5D110088F733 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AFDD972F1E5D110088F733 /* VITALDOC1 */,
+				04AFDDA82F1E5D140088F733 /* VITALDOC1Tests */,
+				04AFDDB22F1E5D140088F733 /* VITALDOC1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AFDD962F1E5D110088F733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AFDDA42F1E5D140088F733 /* Preview Assets.xcassets in Resources */,
+				04AFDDA02F1E5D140088F733 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AFDDA72F1E5D140088F733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AFDDB12F1E5D140088F733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AFDD942F1E5D110088F733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AFDD9E2F1E5D110088F733 /* ContentView.swift in Sources */,
+				04AFDD9C2F1E5D110088F733 /* VITALDOC1App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AFDDA52F1E5D140088F733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AFDDAE2F1E5D140088F733 /* VITALDOC1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AFDDAF2F1E5D140088F733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AFDDBA2F1E5D140088F733 /* VITALDOC1UITestsLaunchTests.swift in Sources */,
+				04AFDDB82F1E5D140088F733 /* VITALDOC1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04AFDDAB2F1E5D140088F733 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AFDD972F1E5D110088F733 /* VITALDOC1 */;
+			targetProxy = 04AFDDAA2F1E5D140088F733 /* PBXContainerItemProxy */;
+		};
+		04AFDDB52F1E5D140088F733 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AFDD972F1E5D110088F733 /* VITALDOC1 */;
+			targetProxy = 04AFDDB42F1E5D140088F733 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04AFDDBB2F1E5D140088F733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04AFDDBC2F1E5D140088F733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		04AFDDBE2F1E5D140088F733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VITALDOC1/VITALDOC1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VITALDOC1/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VITALDOC1/Info.plist;
+
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitaldoc.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04AFDDBF2F1E5D140088F733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VITALDOC1/VITALDOC1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VITALDOC1/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VITALDOC1/Info.plist;
+
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitaldoc.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04AFDDC12F1E5D140088F733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitaldoc.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VITALDOC1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VITALDOC1";
+			};
+			name = Debug;
+		};
+		04AFDDC22F1E5D140088F733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitaldoc.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VITALDOC1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VITALDOC1";
+			};
+			name = Release;
+		};
+		04AFDDC42F1E5D140088F733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitaldoc.app.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VITALDOC1;
+			};
+			name = Debug;
+		};
+		04AFDDC52F1E5D140088F733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitaldoc.app.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VITALDOC1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AFDD932F1E5D110088F733 /* Build configuration list for PBXProject "VITALDOC1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AFDDBB2F1E5D140088F733 /* Debug */,
+				04AFDDBC2F1E5D140088F733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AFDDBD2F1E5D140088F733 /* Build configuration list for PBXNativeTarget "VITALDOC1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AFDDBE2F1E5D140088F733 /* Debug */,
+				04AFDDBF2F1E5D140088F733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AFDDC02F1E5D140088F733 /* Build configuration list for PBXNativeTarget "VITALDOC1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AFDDC12F1E5D140088F733 /* Debug */,
+				04AFDDC22F1E5D140088F733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AFDDC32F1E5D140088F733 /* Build configuration list for PBXNativeTarget "VITALDOC1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AFDDC42F1E5D140088F733 /* Debug */,
+				04AFDDC52F1E5D140088F733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04AFDD902F1E5D110088F733 /* Project object */;
+}
