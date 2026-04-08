@@ -39,9 +39,9 @@ jobs:
 
       - name: Install iOS Simulator Runtime
         run: |
-          # Fix actool bug: "No simulator runtime version available"
-          # actool internally checks simulator runtimes even for device builds
-          xcodebuild -downloadPlatform iOS -quiet || true
+          # Fix actool bug on macos-15: "No simulator runtime version available"
+          # actool checks simulator runtimes even for device-only builds
+          xcodebuild -downloadPlatform iOS
 
       - name: Build Archive
         run: |
