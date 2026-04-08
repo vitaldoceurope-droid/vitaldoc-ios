@@ -101,17 +101,14 @@
 				04AFDD9D2F1E5D110088F733 /* ContentView.swift */,
 				04AFDD9F2F1E5D140088F733 /* Assets.xcassets */,
 				04AFDDA12F1E5D140088F733 /* VITALDOC1.entitlements */,
-				04AFDDA22F1E5D140088F733 /* Preview Content */,
 			);
 			path = VITALDOC1;
 			sourceTree = "<group>";
 		};
-		04AFDDA22F1E5D140088F733 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
 				04AFDDA32F1E5D140088F733 /* Preview Assets.xcassets */,
 			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		04AFDDAC2F1E5D140088F733 /* VITALDOC1Tests */ = {
@@ -424,7 +421,6 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VITALDOC1/Preview Content\"";
 				DEVELOPMENT_TEAM = J7V69TQXP2;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = J7V69TQXP2;
 				ENABLE_PREVIEWS = YES;
@@ -475,7 +471,6 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VITALDOC1/Preview Content\"";
 				DEVELOPMENT_TEAM = J7V69TQXP2;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = J7V69TQXP2;
 				ENABLE_PREVIEWS = YES;
