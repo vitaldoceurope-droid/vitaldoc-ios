@@ -42,8 +42,9 @@ jobs:
             -scheme VITALDOC1 \
             -archivePath build/VITALDOC1.xcarchive \
             -configuration Release \
-            DEVELOPMENT_TEAM=J7V69TQXP2 \
+            -destination "generic/platform=iOS" \
             CODE_SIGN_STYLE=Manual \
+            DEVELOPMENT_TEAM=J7V69TQXP2 \
             PROVISIONING_PROFILE_SPECIFIER="VitalDoc App Store Distribution" \
             CODE_SIGN_IDENTITY="Apple Distribution"
 
