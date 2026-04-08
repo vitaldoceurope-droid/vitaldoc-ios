@@ -44,7 +44,8 @@ jobs:
             -configuration Release \
             CODE_SIGN_STYLE=Manual \
             PROVISIONING_PROFILE_SPECIFIER="VitalDoc App Store Distribution" \
-            CODE_SIGN_IDENTITY="Apple Distribution"
+            CODE_SIGN_IDENTITY="Apple Distribution" \
+            DEVELOPMENT_TEAM=J7V69TQXP2
 
       - name: Export IPA
         run: |
