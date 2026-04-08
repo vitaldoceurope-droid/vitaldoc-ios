@@ -50,6 +50,7 @@ jobs:
             CODE_SIGN_IDENTITY="Apple Distribution" \
             SUPPORTS_MACCATALYST=NO \
             ENABLE_PREVIEWS=NO \
+            VALIDATE_DEVELOPMENT_ASSETS=NO \
             EXCLUDED_ARCHS[sdk=iphonesimulator*]=arm64
 
       - name: Export IPA
