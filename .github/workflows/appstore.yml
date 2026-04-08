@@ -47,7 +47,10 @@ jobs:
             CODE_SIGN_STYLE=Manual \
             DEVELOPMENT_TEAM=J7V69TQXP2 \
             PROVISIONING_PROFILE_SPECIFIER="VitalDoc App Store Distribution" \
-            CODE_SIGN_IDENTITY="Apple Distribution" SUPPORTS_MACCATALYST=NO SKIP_INSTALL=NO EXCLUDED_ARCHS[sdk=iphonesimulator*]=arm64
+            CODE_SIGN_IDENTITY="Apple Distribution" \
+            SUPPORTS_MACCATALYST=NO \
+            ENABLE_PREVIEWS=NO \
+            EXCLUDED_ARCHS[sdk=iphonesimulator*]=arm64
 
       - name: Export IPA
         run: |
@@ -58,10 +61,10 @@ jobs:
 
       - name: Upload to App Store
         env:
-          APP_STORE_CONNECT_USERNAME: ${{ secrets.ASC_USERNAME }}
-          APP_STORE_CONNECT_PASSWORD: ${{ secrets.ASC_PASSWORD }}
+          ASC_USERNAME: ${{ secrets.ASC_USERNAME }}
+          ASC_PASSWORD: ${{ secrets.ASC_PASSWORD }}
         run: |
           xcrun altool --upload-app \
             -f build/VITALDOC1.ipa \
-            -u "$APP_STORE_CONNECT_USERNAME" \
-            -p "$APP_STORE_CONNECT_PASSWORD"
+            -u "$ASC_USERNAME" \
+            -p "$ASC_PASSWORD"
