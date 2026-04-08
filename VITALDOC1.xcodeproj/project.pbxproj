@@ -10,7 +10,6 @@
 		04AFDD9C2F1E5D110088F733 /* VITALDOC1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDD9B2F1E5D110088F733 /* VITALDOC1App.swift */; };
 		04AFDD9E2F1E5D110088F733 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDD9D2F1E5D110088F733 /* ContentView.swift */; };
 		04AFDDA02F1E5D140088F733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AFDD9F2F1E5D140088F733 /* Assets.xcassets */; };
-		04AFDDA42F1E5D140088F733 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AFDDA32F1E5D140088F733 /* Preview Assets.xcassets */; };
 		04AFDDAE2F1E5D140088F733 /* VITALDOC1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDDAD2F1E5D140088F733 /* VITALDOC1Tests.swift */; };
 		04AFDDB82F1E5D140088F733 /* VITALDOC1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDDB72F1E5D140088F733 /* VITALDOC1UITests.swift */; };
 		04AFDDBA2F1E5D140088F733 /* VITALDOC1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDDB92F1E5D140088F733 /* VITALDOC1UITestsLaunchTests.swift */; };
@@ -39,7 +38,6 @@
 		04AFDD9D2F1E5D110088F733 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04AFDD9F2F1E5D140088F733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04AFDDA12F1E5D140088F733 /* VITALDOC1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VITALDOC1.entitlements; sourceTree = "<group>"; };
-		04AFDDA32F1E5D140088F733 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04AFDDA92F1E5D140088F733 /* VITALDOC1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VITALDOC1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AFDDAD2F1E5D140088F733 /* VITALDOC1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VITALDOC1Tests.swift; sourceTree = "<group>"; };
 		04AFDDB32F1E5D140088F733 /* VITALDOC1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VITALDOC1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,12 +101,6 @@
 				04AFDDA12F1E5D140088F733 /* VITALDOC1.entitlements */,
 			);
 			path = VITALDOC1;
-			sourceTree = "<group>";
-		};
-			isa = PBXGroup;
-			children = (
-				04AFDDA32F1E5D140088F733 /* Preview Assets.xcassets */,
-			);
 			sourceTree = "<group>";
 		};
 		04AFDDAC2F1E5D140088F733 /* VITALDOC1Tests */ = {
@@ -232,7 +224,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04AFDDA42F1E5D140088F733 /* Preview Assets.xcassets in Resources */,
 				04AFDDA02F1E5D140088F733 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
