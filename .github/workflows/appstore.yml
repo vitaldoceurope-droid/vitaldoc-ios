@@ -47,7 +47,7 @@ jobs:
             CODE_SIGN_STYLE=Manual \
             DEVELOPMENT_TEAM=J7V69TQXP2 \
             PROVISIONING_PROFILE_SPECIFIER="VitalDoc App Store Distribution" \
-            CODE_SIGN_IDENTITY="Apple Distribution" SUPPORTS_MACCATALYST=NO SKIP_INSTALL=NO
+            CODE_SIGN_IDENTITY="Apple Distribution" SUPPORTS_MACCATALYST=NO SKIP_INSTALL=NO EXCLUDED_ARCHS[sdk=iphonesimulator*]=arm64
 
       - name: Export IPA
         run: |
