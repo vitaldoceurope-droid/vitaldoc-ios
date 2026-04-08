@@ -37,6 +37,12 @@ jobs:
           mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
           cp profile.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/
 
+      - name: Install iOS Simulator Runtime
+        run: |
+          # Fix actool bug: "No simulator runtime version available"
+          # actool internally checks simulator runtimes even for device builds
+          xcodebuild -downloadPlatform iOS -quiet || true
+
       - name: Build Archive
         run: |
           xcodebuild archive \
