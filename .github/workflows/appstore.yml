@@ -74,5 +74,6 @@ jobs:
         run: |
           xcrun altool --upload-app \
             -f build/VITALDOC1.ipa \
+            -t ios \
             -u "$ASC_USERNAME" \
             -p "$ASC_PASSWORD"
